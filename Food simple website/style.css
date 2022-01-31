@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color:whitesmoke;
+}
+
+header{
+    height: 15vh;
+    padding: 50px,0;
+    background-color: #923158;
+    
+}
+
+h1{
+    color:whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    margin: auto;
+ 
+}
+
+nav{
+    height: 10vh;
+    background-color: #6E1237;
+}
+
+header, nav, aside,main,footer{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+aside,main{
+    height: 70vh;
+    width: 35%;
+    float:left;
+}
+
+aside{
+    width: 20%;
+    background-color: #923158;
+}
+
+main{
+    background-color: #B65B80;
+    width: 80%;
+}
+
+footer{
+    margin: 0;
+    height: 40vh;
+    background-color: #6E1237;
+    clear: both;
+}
+
+p{
+ padding-left: 5%;
+}
+
+.wrapper{
+    display:flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+width: 100%;
+height: 100%;
+padding: 30px 0;
+
+
+}
+
+.wrapper .sidebar ol{
+
+    list-style: none;
+    height: 100%;
+    width: 30%;
+    margin:auto;
+    margin-top:0;
+
+}
+
+.wrapper .sidebar li{
+
+    float:left;
+    padding: 5px;
+    text-align: left;
+    margin:auto;
+
+}
+
+.wrapper .sidebar a:hover{
+    background-color: #6E1237;
+    border: 1px solid white;
+    color: red;
+    transition-property: background-color;
+    transition-duration: 2s;
+    
+}
+
+.wrapper .sidebar p:hover{
+    padding-left: 15%;
+    transition-property:  padding-left;
+    transition-duration: 2s;
+    
+}
+
+
+.wrapper .sidebar a{
+  
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 0px;
+    margin-right: 20px;
+    margin-bottom:5px;
+
+    transition-property: background-color;
+    transition-duration: 2s;
+    
+}
+
+main{
+    display:flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Card{
+    width: 250px;
+    background-color: #FFFFFF;
+    height: 250px;
+    border: 2px solid #6E1237; 
+    border-radius: 5%; 
+    text-align: center;
+    display: inline-block;
+    margin: 1%;
+ }
+
+ 
+ h2{
+    color: gray;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    block-size:inherit;
+}
+
+.divimage{
+    margin: auto;
+    text-align: center;
+}
+
+.Card:hover{
+    padding-top: 3%;
+    transition-property:  padding-top;
+    transition-duration: 2s;
+    
+}
